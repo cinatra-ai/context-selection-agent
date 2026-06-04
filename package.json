@@ -1,6 +1,6 @@
 {
   "name": "@cinatra-ai/context-selection-agent",
-  "version": "0.3.0",
+  "version": "0.1.0",
   "license": "Apache-2.0",
   "description": "Core context-agent extension. Non-uninstallable A2A sub-agent that a calling context-using agent invokes for contextSlot resolution. Owns: resolver invocation, ContextSelector HITL renderer (interactive mode), version pinning at selection time, run_context_selections audit write, output_data.contextRefs to the calling agent. Invoked explicitly per slot via an author-added context-agent FlowNode + an @cinatra-ai/context-selection-agent agentDependencies entry on the context-using agent (child-local). NOT runtime auto-wiring; adding a context slot means an OAS change PLUS the explicit FlowNode/dependency wiring.",
   "type": "module",
