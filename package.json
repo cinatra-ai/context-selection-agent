@@ -20,6 +20,14 @@
     "riskLevel": "low",
     "hasApprovalGates": true,
     "toolAccess": [],
-    "ownerOrgId": null
+    "ownerOrgId": null,
+    "fieldRenderers": [
+      {
+        "id": "@cinatra-ai/context-selection-agent:context-selector",
+        "kind": "context-selector",
+        "priority": 90,
+        "midRunHitl": true
+      }
+    ]
   }
 }
