@@ -10,6 +10,7 @@
   "cinatra": {
     "apiVersion": "cinatra.ai/v1",
     "kind": "agent",
+    "displayName": "Context Selection Agent",
     "dependencies": [],
     "packageType": "agent",
     "manifestVersion": 1,
